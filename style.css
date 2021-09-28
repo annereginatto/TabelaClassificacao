@@ -149,3 +149,20 @@ footer img:hover {
   transform: scale(1.1);
   transition-duration: 0.5s;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #darkgreen;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darkgreen;
+}
