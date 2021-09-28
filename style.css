@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  background-image: url("https://source.unsplash.com/deGn9vSwXIM");
+  background-color: #000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: "Righteous", cursive;
+  cursor: default;
+  text-shadow: 5px 5px 5px darkgreen;
+  letter-spacing: 10px;
+}
+
+h1:hover {
+  color: darkgreen;
+  text-shadow: 5px 5px 5px #fff;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 20%;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Righteous", cursive;
+  border-radius: 10px;
+  border: 1px dotted #fff;
+}
+
+input:hover {
+  border: 2px solid darkgreen;
+  font-size: 16px;
+}
+
+button {
+  width: 18%;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  font-family: "Righteous", cursive;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+  border: darkgreen;
+  transform: scale(1.2);
+  transition-duration: 0.7s;
+}
+
+table {
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  cursor: default;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 2px solid #fff;
+}
+
+tr:hover {
+  background-color: darkgreen;
+  border: 2px solid #000;
+}
+
+img {
+  width: 30px;
+}
+
+.vitoria,
+.empate,
+.derrota {
+  width: 85%;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: default;
+  opacity: 0.5;
+  transform: scale(1);
+}
+
+#texto {
+  font-family: "Righteous", cursive;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 3px;
+  cursor: default;
+}
+
+footer p {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  letter-spacing: 5px;
+  cursor: default;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  border: darkgreen;
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+
+.linkedin,
+.github,
+.discord,
+.codepen {
+  width: 35px;
+}
+
+.gmail {
+  width: 45px;
+}
+
+footer img {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}

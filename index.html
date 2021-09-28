@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de classificação</title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+  <main>
+    <input type="text" placeholder="Insira nome do clube" id="nomeClube" name="form">
+    <input type="text" placeholder="Insira o link do escudo" id="escudoClube" name="form">
+    <input type="text" placeholder="Insira o número de jogos" name="form" id="jogosClube"><br>
+    <input type="text" placeholder="Insira o número de vitórias" name="form" id="vitoriasClube">
+    <input type="text" placeholder="Insira o número de empates" id="empatesClube" name="form">
+    <input type="text" placeholder="Insira o número de derrotas" name="form" id="derrotasClube"><br>
+    <br>
+    <button type="submit" onclick="adicionarClube()">Adicionar Clube</button>
+    <button type="submit" onclick="removerClube()">Remover Clube</button><br>
+    <p id="texto"></p>
+    <br>
+    <table style="width: 95%">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th></th>
+          <th>Jogos</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan=3>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-clubes">
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <br><br><br>
+    <p>Desenvolvido por Anne Reginatto</p>
+    <a href="https://www.linkedin.com/in/anne-reginatto/" target="_blank"><img class="linkedin" src="https://www.freepnglogos.com/uploads/linkedin-shiny-icon-logo-5.png"></a>
+    <a href="https://github.com/annereginatto" target="_blank"><img class="github" src="https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png"></a>
+    <a href="https://discordapp.com/users/885167937298763807/" target="_blank"><img class="discord" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-your-gaming-dude-rsps-wow-minecraft-and-maplestory-2.png"></a>
+    <a href="https://codepen.io/annereginatto" target="_blank"><img class="codepen" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"></a>
+
+    <a href="malito:annereginatto@gmail.com" target="_blank"><img class="gmail" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png"></a>
+    <br><br><br>
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
