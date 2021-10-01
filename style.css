@@ -131,13 +131,12 @@ footer p:hover {
 
 .linkedin,
 .github,
-.discord,
 .codepen {
-  width: 35px;
+  width: 30px;
 }
 
-.gmail {
-  width: 45px;
+.gmail, .discord {
+  width: 35px;
 }
 
 footer img {
@@ -159,7 +158,7 @@ footer img:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: darkgreen;
+  background: #darkgreen;
   border-radius: 10px;
 }
 
