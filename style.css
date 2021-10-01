@@ -163,7 +163,7 @@ footer img:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #darkgreen;
+  background: darkgreen;
   border-radius: 10px;
 }
 
